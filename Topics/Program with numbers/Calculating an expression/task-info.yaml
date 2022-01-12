@@ -1,0 +1,30 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# put your python code here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6461#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 10. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    3
+
+    Correct output:
+    45
+
+    Your code output:
+    3
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 2, in <module>
+        number=int(input((n+1)*n+2)*n+3)
+    NameError: name 'n' is not defined
+  time: Wed, 01 Dec 2021 00:33:34 UTC
+record: -1

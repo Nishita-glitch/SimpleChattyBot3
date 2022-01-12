@@ -1,0 +1,31 @@
+type: code
+custom_name: Hello!
+files:
+- name: main.py
+  visible: true
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6808#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 5. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    Sauron
+
+    Correct output:
+    Hello, Sauron
+
+
+    Your code output:
+
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 1, in <module>
+        print("Hello,", input(Sauron))
+    NameError: name 'Sauron' is not defined
+  time: Tue, 19 Oct 2021 00:58:50 UTC
+record: -1
